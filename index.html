@@ -1,0 +1,1429 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<style data-fls-preloader="false" rel="preload">
+			body>*:not(.fls-preloader) {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    [data-fls-preloader-loaded] body>*:not(.fls-preloader) {
+        transition: opacity 0.5s ease 0s;
+        opacity: 1;
+        visibility: visible;
+    }
+		</style>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="color-scheme" content="light">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700;800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="./assets/img/favico.png">
+		<title>Fitmaker</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1794596258918"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1794596258918">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo">
+						<div class="header__logo-img __img">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/logo-small-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/logo-small-1200.webp" type="image/webp">
+								<img alt="Логотип FITMAKER" src="./assets/img/logo-small.webp">
+							</picture>
+						</div>
+					</a>
+					<div class="header__search">
+						<button type="button" class="header__search-btn --icon-search" aria-label="Відкрити пошук" aria-expanded="false" aria-controls="search-form"></button>
+					</div>
+					<nav class="header__menu menu">
+						<ul class="header__list menu__list">
+							<li>
+								<a class="menu__link" href="#head">Головна</a>
+							</li>
+							<li>
+								<a class="menu__link" href="#plans">Програми</a>
+							</li>
+							<li>
+								<a class="menu__link" href="#trainers">Тренування</a>
+							</li>
+							<li>
+								<a class="menu__link" href="#comm">Абонементи</a>
+							</li>
+							<li>
+								<a class="menu__link" href="#blog">Про нас</a>
+							</li>
+						</ul>
+					</nav>
+					<div data-fls-dynamic=".menu, 525" class="header__buttons">
+						<button data-fls-popup-link="popup2" class="header__btn btn--trans">Увійти</button>
+						<button data-fls-popup-link="popup" class="header__btn btn--red">Реєстрація</button>
+					</div>
+					<div class="menu__icon">
+						<span></span>
+					</div>
+				</div>
+			</header>
+			<form action="#" id="search-form" class="search-form">
+				<div class="search-form__container">
+					<button type="submit" class="search-form__btn --icon-search"></button>
+					<input type="search" placeholder="Пошук..." class="search-form__input">
+				</div>
+			</form>
+			<main class="page-home">
+				<section id="head" class="hero">
+					<div class="hero__container">
+						<div class="hero__text">
+							<h1 data-fls-dynamic=".hero__images, 768,first" class="hero__title">
+								<span>Досягай своїх</span>
+								<span class="text-red">спортивних цілей</span>
+								<span>разом із FitMaker</span>
+							</h1>
+							<div class="hero__caption">
+								<p>
+									Приєднуйся до спільноти FitMaker та змінюй своє життя на краще! Наші досвідчені тренери й
+                        персоналізовані програми допоможуть тобі досягти поставлених цілей і перевершити власні
+                        очікування. Готовий почати зміни?
+								</p>
+							</div>
+							<div class="hero__buttons show">
+								<button class="hero__btn btn--trans">Почати свій шлях</button>
+								<button class="hero__btn btn--red">Наші програми</button>
+							</div>
+						</div>
+						<div class="hero__images">
+							<div class="hero__image">
+								<div class="hero__img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/hero-img-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/hero-img-1200.webp" type="image/webp">
+										<img alt="Спортивне тренування FitMaker" src="./assets/img/hero-img.webp">
+									</picture>
+								</div>
+							</div>
+							<div class="hero__bages">
+								<div class="hero__bage hero__bage--1">
+									<div data-fls-watcher="" class="hero__bage-title">
+										<span>+</span>
+										<span data-fls-digcounter="">80</span>
+									</div>
+									<div class="hero__bage-caption">Тренерів</div>
+								</div>
+								<div class="hero__bage hero__bage--2">
+									<div data-fls-watcher="" class="hero__bage-title">
+										<span>+</span>
+										<span data-fls-digcounter="">1300</span>
+									</div>
+									<div class="hero__bage-caption">Позитивних відгуків</div>
+								</div>
+								<div class="hero__bage hero__bage--3">
+									<div data-fls-watcher="" class="hero__bage-title">
+										<span>+</span>
+										<span data-fls-digcounter="">1000</span>
+									</div>
+									<div class="hero__bage-caption">Відеотренувань</div>
+								</div>
+								<div class="hero__bage hero__bage--4">
+									<div data-fls-watcher="" class="hero__bage-title">
+										<span>+</span>
+										<span data-fls-digcounter="">1500</span>
+									</div>
+									<div class="hero__bage-caption">Спортсменів</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="advantages">
+					<div class="advantages__container">
+						<div class="advantages__item">
+							<div class="advantages__title">
+								<div data-fls-watcher="" class="advantages__number text-red">
+									<span data-fls-digcounter="">96</span>
+									<span>%</span>
+								</div>
+								<p>Задоволеність клієнтів</p>
+							</div>
+							<div class="advantages__subtitle">
+								<p>Наші клієнти задоволені своїми результатами та досвідом тренувань</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__title">
+								<div data-fls-watcher="" class="advantages__number text-red">
+									<span>+</span>
+									<span data-fls-digcounter="">5</span>
+								</div>
+								<p>Років досвіду</p>
+							</div>
+							<div class="advantages__subtitle">
+								<p>Довіряй нашому досвіду та перевіреним методам досягнення результатів</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__title">
+								<div data-fls-watcher="" class="advantages__number text-red">
+									<span>+</span>
+									<span data-fls-digcounter="">800</span>
+								</div>
+								<p>Активних учасників</p>
+							</div>
+							<div class="advantages__subtitle">
+								<p>Приєднуйся до нашої великої спортивної спільноти</p>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__title">
+								<div data-fls-watcher="" class="advantages__number text-red">
+									<span data-fls-digcounter="">24</span>
+									<span>/</span>
+									<span data-fls-digcounter="">7</span>
+								</div>
+								<p>Підтримка 24/7</p>
+							</div>
+							<div class="advantages__subtitle">
+								<p>Професійна допомога та консультації у будь-який час</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="services">
+					<div class="services__container">
+						<h2 class="services__title title show">
+							Наші
+							<span class="text-red">послуги</span>
+						</h2>
+						<div class="services__subtitle subtitle show">
+							Тут ти знайдеш усі наші послуги для досягнення своїх спортивних цілей. Ознайомся з ними та обирай те, що
+                підходить саме тобі.
+						</div>
+						<div class="services__cards">
+							<div class="services__card show">
+								<div class="services__card-bg">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/card-bg-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/card-bg-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/card-bg.webp">
+									</picture>
+								</div>
+								<div class="services__card-text">
+									<div class="services__card-title text-red">Схуднення</div>
+									<div class="services__card-subtitle">Обирай нашу програму для зниження ваги</div>
+									<div class="services__card-caption">
+										<p>
+											Досягай стабільного зниження ваги завдяки індивідуальним програмам, створеним для
+                                спалювання жиру та формування здорового й підтягнутого тіла. Почни свій шлях до кращої
+                                фізичної форми вже сьогодні!
+										</p>
+									</div>
+									<div class="services__card-link">
+										<a href="" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="services__card-img">
+									<div class="services__card-image __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/services1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/services1-1200.webp" type="image/webp">
+											<img alt="Image" src="./assets/img/services1.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="services__card show">
+								<div class="services__card-bg __img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/card-bg-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/card-bg-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/card-bg.webp">
+									</picture>
+								</div>
+								<div class="services__card-text">
+									<div class="services__card-title text-red">Набір м'язової маси</div>
+									<div class="services__card-subtitle">Обирай програму для розвитку м'язів</div>
+									<div class="services__card-caption">
+										<p>
+											Розвивай силу та формуй рельєф м'язів за допомогою персоналізованих програм, які
+                                допоможуть ефективно нарощувати суху м'язову масу. Натискай кнопку нижче та починай свій
+                                шлях до бажаного результату вже зараз!
+										</p>
+									</div>
+									<div class="services__card-link">
+										<a href="" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="services__card-img">
+									<div class="services__card-image __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/services2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/services2-1200.webp" type="image/webp">
+											<img alt="Image" src="./assets/img/services2.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="services__card show">
+								<div class="services__card-bg __img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/card-bg-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/card-bg-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/card-bg.webp">
+									</picture>
+								</div>
+								<div class="services__card-text">
+									<div class="services__card-title text-red">Домашні тренування</div>
+									<div class="services__card-subtitle">Ознайомся з нашими програмами для дому</div>
+									<div class="services__card-caption">
+										<p>
+											Залишайся у формі та зміцнюй своє тіло завдяки ефективним програмам домашніх тренувань,
+                                які потребують мінімум обладнання. Відкривай для себе безліч варіантів тренувань —
+                                просто натисни «Дізнатися більше»!
+										</p>
+									</div>
+									<div class="services__card-link">
+										<a href="" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="services__card-img">
+									<div class="services__card-image __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/services3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/services3-1200.webp" type="image/webp">
+											<img alt="Image" src="./assets/img/services3.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="services__card show">
+								<div class="services__card-bg __img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/card-bg-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/card-bg-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/card-bg.webp">
+									</picture>
+								</div>
+								<div class="services__card-text">
+									<div class="services__card-title text-red">Програми для залу</div>
+									<div class="services__card-subtitle">Введи свої дані та отримай персональну програму!</div>
+									<div class="services__card-caption">
+										<p>
+											Зроби кожне тренування в залі максимально ефективним завдяки структурованим програмам,
+                                які допоможуть впевнено рухатися до твоїх спортивних цілей.
+										</p>
+									</div>
+									<div class="services__card-link">
+										<a href="" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="services__card-img">
+									<div class="services__card-image">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/services4-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/services4-1200.webp" type="image/webp">
+											<img alt="Image" src="./assets/img/services4.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="plans" class="plans">
+					<div data-fls-tabs="" class="plans__container">
+						<h2 class="plans__title title show">
+							Наші
+							<span class="text-red">тарифи</span>
+						</h2>
+						<div class="plans__subtitle subtitle show">
+							Обирай тариф, який відповідає твоїм спортивним цілям, а наші професійні тренери допоможуть тобі досягти
+                бажаного результату.
+						</div>
+						<div class="plans__buttons-body">
+							<div data-fls-tabs-titles="" class="plans__buttons">
+								<button class="plans__btn --tab-active">Щомісячна оплата</button>
+								<button class="plans__btn">Річна оплата</button>
+							</div>
+						</div>
+						<div data-fls-tabs-body="" class="plans__cards-body">
+							<div class="plans__cards">
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Пакет</div>
+									<div class="plans__card-title">Pro Plan</div>
+									<div class="plans__card-subtitle text-red">Опис</div>
+									<div class="plans__card-caption">
+										<p>
+											Розширені тренування та персональні рекомендації з харчування допоможуть тобі швидше
+                                досягти бажаних результатів. Зроби крок до кращої версії себе!
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Що входить</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань</li>
+										<li class="plans__card-list-item">Відстеження прогресу</li>
+										<li class="plans__card-list-item">Підтримка спортивної онлайн-спільноти</li>
+										<li class="plans__card-list-item">Розширені персональні програми тренувань</li>
+										<li class="plans__card-list-item">Комплексні рекомендації з харчування</li>
+										<li class="plans__card-list-item">Доступ до спеціалізованих програм тренувань</li>
+										<li class="plans__card-list-item">Аналіз складу тіла</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">99</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Пакет</div>
+									<div class="plans__card-title">Custom Plan</div>
+									<div class="plans__card-subtitle text-red">Опис</div>
+									<div class="plans__card-caption">
+										<p>
+											Отримай повністю індивідуальний підхід до тренувань! Працюй персонально з тренером, який
+                                розробить програму відповідно до твоїх цілей та потреб.
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Що входить</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань</li>
+										<li class="plans__card-list-item">Відстеження прогресу</li>
+										<li class="plans__card-list-item">Підтримка спортивної онлайн-спільноти</li>
+										<li class="plans__card-list-item">Індивідуальна програма тренувань і харчування</li>
+										<li class="plans__card-list-item">Щотижневі консультації з тренером</li>
+										<li class="plans__card-list-item">Доступ до всіх функцій платформи</li>
+										<li class="plans__card-list-item">Ексклюзивні знижки на спортивне спорядження</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">149</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Пакет</div>
+									<div class="plans__card-title">Beginner Plan</div>
+									<div class="plans__card-subtitle text-red">Опис</div>
+									<div class="plans__card-caption">
+										<p>
+											Зроби перший крок до активного способу життя! Почни з базових тренувань і отримай
+                                необхідні рекомендації з харчування для впевненого старту.
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Що входить</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань</li>
+										<li class="plans__card-list-item">Відстеження прогресу</li>
+										<li class="plans__card-list-item">Підтримка спортивної онлайн-спільноти</li>
+										<li class="plans__card-list-item">Персональні програми тренувань</li>
+										<li class="plans__card-list-item">Базові рекомендації з харчування</li>
+										<li class="plans__card-list-item">Доступ до групових тренувань</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">49</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+							</div>
+							<div class="plans__cards">
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Річний пакет</div>
+									<div class="plans__card-title">Pro Plan</div>
+									<div class="plans__card-subtitle text-red">Інвестиція у результат</div>
+									<div class="plans__card-caption">
+										<p>
+											12 місяців системних тренувань для тих, хто прагне більшого! Розвивай силу, витривалість
+                                і вдосконалюй своє тіло з розширеними програмами та рекомендаціями з харчування. Твій
+                                результат — наша спільна мета!
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Твої переваги</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань протягом року</li>
+										<li class="plans__card-list-item">Детальне відстеження прогресу</li>
+										<li class="plans__card-list-item">Розширена спортивна онлайн-спільнота</li>
+										<li class="plans__card-list-item">Персональні програми тренувань</li>
+										<li class="plans__card-list-item">Рекомендації з харчування</li>
+										<li class="plans__card-list-item">Доступ до спеціалізованих програм</li>
+										<li class="plans__card-list-item">Аналіз складу тіла</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">999</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Річний пакет</div>
+									<div class="plans__card-title">Custom Plan</div>
+									<div class="plans__card-subtitle text-red">Максимум персоналізації</div>
+									<div class="plans__card-caption">
+										<p>
+											Рік індивідуальної роботи з персональним тренером! Отримуй постійний супровід,
+                                персональні програми тренувань і харчування та коригуй свій план відповідно до змін і
+                                досягнень.
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Твої переваги</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань</li>
+										<li class="plans__card-list-item">Повний контроль прогресу</li>
+										<li class="plans__card-list-item">Персональний супровід тренера</li>
+										<li class="plans__card-list-item">Індивідуальна програма тренувань і харчування</li>
+										<li class="plans__card-list-item">Щотижневі консультації з тренером</li>
+										<li class="plans__card-list-item">Доступ до всіх функцій платформи</li>
+										<li class="plans__card-list-item">Ексклюзивні знижки на спортивне спорядження</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">1499</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+								<div class="plans__card show">
+									<div class="plans__card-label text-red">Річний пакет</div>
+									<div class="plans__card-title">Beginner Plan</div>
+									<div class="plans__card-subtitle text-red">Впевнений старт на рік</div>
+									<div class="plans__card-caption">
+										<p>
+											365 днів для формування корисних звичок і нових досягнень! Рухайся до своєї мети у
+                                власному темпі, поступово зміцнюй тіло та покращуй фізичну форму.
+										</p>
+									</div>
+									<div class="plans__card-subtitle text-red">Твої переваги</div>
+									<ul class="plans__card-list">
+										<li class="plans__card-list-item">Доступ до всіх відеотренувань протягом року</li>
+										<li class="plans__card-list-item">Відстеження прогресу</li>
+										<li class="plans__card-list-item">Підтримка спортивної онлайн-спільноти</li>
+										<li class="plans__card-list-item">Персональні програми тренувань</li>
+										<li class="plans__card-list-item">Базові рекомендації з харчування</li>
+										<li class="plans__card-list-item">Доступ до групових тренувань</li>
+									</ul>
+									<div data-fls-watcher="" class="plans__card-price">
+										<span data-fls-digcounter="">499</span>
+										<span>$</span>
+										<span>/USDT</span>
+									</div>
+									<div class="plans__card-button">
+										<button class="plans__card-btn btn--red">Обрати тариф</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="fitnes-tools">
+					<div class="fitnes-tools__container">
+						<div class="fitnes-tools__top">
+							<h2 class="fitnes-tools__title title">
+								Наші
+								<span class="text-red">інструменти</span>
+							</h2>
+							<div data-fls-dynamic=".fitnes-tools__container,1024,last" class="fitnes-tools__navigation">
+								<div class="fitnes-tools__buttons">
+									<div class="fitnes-tools__arrow fitnes-tools__arrow--left --icon-arrow-left"></div>
+									<div class="fitnes-tools__arrow fitnes-tools__arrow--right --icon-arrow-left"></div>
+								</div>
+								<div class="fitnes-tools__pagination"></div>
+							</div>
+						</div>
+						<div class="fitnes-tools__subtitle subtitle">
+							Користуйся різноманітними інструментами, які допоможуть тобі
+                ефективніше досягати своїх спортивних цілей.
+						</div>
+						<div data-fls-slider="" class="fitnes-tools__cards swiper">
+							<div class="swiper-wrapper">
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools1-1200.webp" type="image/webp">
+											<img alt="Калькулятор індексу маси тіла" src="./assets/img/tools1.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Калькулятор ІМТ</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools2-1200.webp" type="image/webp">
+											<img alt="Калькулятор калорій" src="./assets/img/tools2.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Калькулятор калорій</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools3-1200.webp" type="image/webp">
+											<img alt="Калькулятор добової норми води" src="./assets/img/tools3.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Калькулятор норми води</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools4-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools4-1200.webp" type="image/webp">
+											<img alt="Інструмент для постановки цілей" src="./assets/img/tools4.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Постановка цілей</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools5-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools5-1200.webp" type="image/webp">
+											<img alt="Калькулятор макронутрієнтів" src="./assets/img/tools5.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Калькулятор БЖВ</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+								<div class="fitnes-tools__card swiper-slide">
+									<div class="fitnes-tools__card-img __img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/tools3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/tools3-1200.webp" type="image/webp">
+											<img alt="Калькулятор добової норми води" src="./assets/img/tools3.webp">
+										</picture>
+									</div>
+									<div class="fitnes-tools__card-title">Калькулятор норми води</div>
+									<div class="fitnes-tools__card-link">
+										<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="say" class="customer-say">
+					<div class="customer-say__container">
+						<h2 class="customer-say__title title">
+							Що говорять
+							<span class="text-red">наші клієнти</span>
+						</h2>
+						<div class="customer-say__subtitle subtitle">
+							Дізнайся, що думають про FitMaker наші клієнти, та ознайомся з їхніми позитивними відгуками.
+						</div>
+						<div class="customer-say__items">
+							<div data-fls-slider="" class="customer-say__slider swiper">
+								<div class="customer-say__slider-body swiper-wrapper">
+									<div class="customer-say__slider-slide swiper-slide">
+										<div class="customer-say__slider-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/say1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/say1-1200.webp" type="image/webp">
+												<img alt="Фото Стівена Говарда" src="./assets/img/say1.webp">
+											</picture>
+										</div>
+										<div class="customer-say__slider-text">
+											<div class="customer-say__slider-title">Стівен Говард</div>
+											<div class="customer-say__slider-subtitle">Наш клієнт</div>
+											<div class="customer-say__slider-caption">
+												<p>
+													Користуюся FitMaker уже три місяці й можу впевнено сказати, що це саме те, чого
+                                        мені не вистачало! Особливо подобається індивідуальний підхід тренера: кожне
+                                        тренування продумане, а програма харчування відповідає моїм цілям. Я став
+                                        витривалішим, сильнішим і нарешті бачу результат своїх зусиль. Рекомендую всім,
+                                        хто хоче змінити себе на краще!
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="customer-say__slider-slide swiper-slide">
+										<div class="customer-say__slider-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer2-1200.webp" type="image/webp">
+												<img alt="Фото Тома Блейка" src="./assets/img/trainer2.webp">
+											</picture>
+										</div>
+										<div class="customer-say__slider-text">
+											<div class="customer-say__slider-title">Том Блейк</div>
+											<div class="customer-say__slider-subtitle">Наш клієнт</div>
+											<div class="customer-say__slider-caption">
+												<p>
+													Завдяки FitMaker мені вдалося не лише схуднути, а й повністю змінити свої
+                                        звички. Програма тренувань чудово підійшла до мого графіка, а рекомендації щодо
+                                        харчування допомогли зробити раціон збалансованим. Найбільше подобається, що я
+                                        постійно відчуваю підтримку та бачу свій прогрес. Тепер тренування стали
+                                        невід'ємною частиною мого життя!
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="customer-say__slider-slide swiper-slide">
+										<div class="customer-say__slider-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner2-1200.webp" type="image/webp">
+												<img alt="Фото Майкла Гарріса" src="./assets/img/treiner2.webp">
+											</picture>
+										</div>
+										<div class="customer-say__slider-text">
+											<div class="customer-say__slider-title">Майкл Гарріс</div>
+											<div class="customer-say__slider-subtitle">Наш клієнт</div>
+											<div class="customer-say__slider-caption">
+												<p>
+													Я давно хотів набрати м'язову масу, але не знав, як правильно організувати
+                                        тренування. У FitMaker мені допомогли скласти персональну програму, підібрати
+                                        навантаження та скоригувати харчування. За кілька місяців я помітив значні зміни
+                                        у своїй силі та фізичній формі. Дуже задоволений результатом і продовжую
+                                        рухатися вперед!
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="customer-say__slider-slide swiper-slide">
+										<div class="customer-say__slider-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner1-1200.webp" type="image/webp">
+												<img alt="Фото Сема Коула" src="./assets/img/treiner1.webp">
+											</picture>
+										</div>
+										<div class="customer-say__slider-text">
+											<div class="customer-say__slider-title">Сем Коул</div>
+											<div class="customer-say__slider-subtitle">Наш клієнт</div>
+											<div class="customer-say__slider-caption">
+												<p>
+													Раніше мені було складно знаходити час на спорт, але з FitMaker домашні
+                                        тренування стали простими та зручними. Я можу займатися у власному темпі,
+                                        обирати потрібні вправи й поступово підвищувати навантаження. Платформа
+                                        зрозуміла, програми різноманітні, а результати мотивують не зупинятися. Чудовий
+                                        сервіс для тих, хто цінує свій час!
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-fls-dynamic=".customer-say__container,1024,last" class="customer-say__arrows">
+								<div class="customer-say__arrow customer-say__arrow--left --icon-arrow-left"></div>
+								<div class="customer-say__arrow customer-say__arrow--right --icon-arrow-left"></div>
+							</div>
+							<div data-fls-slider="" class="customer-say__thumbs swiper">
+								<div class="customer-say__thumbs-body swiper-wrapper">
+									<div class="customer-say__thumb swiper-slide">
+										<div class="customer-say__thumb-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/say1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/say1-1200.webp" type="image/webp">
+												<img alt="Стівен Говард" src="./assets/img/say1.webp">
+											</picture>
+										</div>
+										<div class="customer-say__thumb-title">
+											<span>Стівен Говард</span>
+										</div>
+									</div>
+									<div class="customer-say__thumb swiper-slide">
+										<div class="customer-say__thumb-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer2-1200.webp" type="image/webp">
+												<img alt="Том Блейк" src="./assets/img/trainer2.webp">
+											</picture>
+										</div>
+										<div class="customer-say__thumb-title">
+											<span>Том Блейк</span>
+										</div>
+									</div>
+									<div class="customer-say__thumb swiper-slide">
+										<div class="customer-say__thumb-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner2-1200.webp" type="image/webp">
+												<img alt="Майкл Гарріс" src="./assets/img/treiner2.webp">
+											</picture>
+										</div>
+										<div class="customer-say__thumb-title">
+											<span>Майкл Гарріс</span>
+										</div>
+									</div>
+									<div class="customer-say__thumb swiper-slide">
+										<div class="customer-say__thumb-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner1-1200.webp" type="image/webp">
+												<img alt="Сем Коул" src="./assets/img/treiner1.webp">
+											</picture>
+										</div>
+										<div class="customer-say__thumb-title">
+											<span>Сем Коул</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="trainers" class="trainers">
+					<div class="trainers__container">
+						<div class="trainers__top">
+							<h1 class="trainers__title title">
+								Познайомся з
+								<span class="text-red">тренерами</span>
+							</h1>
+							<div data-fls-dynamic=".trainers__container,1024,last" class="trainers__navigation">
+								<div class="trainers__buttons">
+									<div class="trainers__arrow trainers__arrow--left --icon-arrow-left"></div>
+									<div class="trainers__arrow trainers__arrow--right --icon-arrow-left"></div>
+								</div>
+								<div class="trainers__pagination">
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+						<div class="trainers__subtitle subtitle">
+							Наша команда — це досвідчені фахівці, які допоможуть тобі досягти спортивних цілей, покращити фізичну
+                форму та стати сильнішим.
+						</div>
+						<div class="trainers__cards swiper">
+							<div class="trainers__cards-body swiper-wrapper">
+								<div class="trainers__card swiper-slide">
+									<div class="trainers__card-image">
+										<div class="trainers__card-image-bg __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer-bg-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer-bg-1200.webp" type="image/webp">
+												<img alt="Фон картки тренера" src="./assets/img/trainer-bg.webp">
+											</picture>
+										</div>
+										<div class="trainers__card-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner1-1200.webp" type="image/webp">
+												<img alt="Сем Коул" src="./assets/img/treiner1.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="trainers__card-text">
+										<div class="trainers__card-title">Сем Коул</div>
+										<div class="trainers__card-subtitle">Персональний тренер</div>
+										<div class="fitnes-tools__card-link trainers__card-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+								<div class="trainers__card swiper-slide">
+									<div class="trainers__card-image">
+										<div class="trainers__card-image-bg __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer-bg-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer-bg-1200.webp" type="image/webp">
+												<img alt="Фон картки тренера" src="./assets/img/trainer-bg.webp">
+											</picture>
+										</div>
+										<div class="trainers__card-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer2-1200.webp" type="image/webp">
+												<img alt="Майкл Гарріс" src="./assets/img/trainer2.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="trainers__card-text">
+										<div class="trainers__card-title">Майкл Гарріс</div>
+										<div class="trainers__card-subtitle">Персональний тренер</div>
+										<div class="fitnes-tools__card-link trainers__card-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+								<div class="trainers__card swiper-slide">
+									<div class="trainers__card-image">
+										<div class="trainers__card-image-bg __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer-bg-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer-bg-1200.webp" type="image/webp">
+												<img alt="Фон картки тренера" src="./assets/img/trainer-bg.webp">
+											</picture>
+										</div>
+										<div class="trainers__card-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/treiner2-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/treiner2-1200.webp" type="image/webp">
+												<img alt="Том Блейк" src="./assets/img/treiner2.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="trainers__card-text">
+										<div class="trainers__card-title">Том Блейк</div>
+										<div class="trainers__card-subtitle">Персональний тренер</div>
+										<div class="fitnes-tools__card-link trainers__card-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+								<div class="trainers__card swiper-slide">
+									<div class="trainers__card-image">
+										<div class="trainers__card-image-bg __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer-bg-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer-bg-1200.webp" type="image/webp">
+												<img alt="Фон картки тренера" src="./assets/img/trainer-bg.webp">
+											</picture>
+										</div>
+										<div class="trainers__card-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/say1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/say1-1200.webp" type="image/webp">
+												<img alt="Стівен Говард" src="./assets/img/say1.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="trainers__card-text">
+										<div class="trainers__card-title">Стівен Говард</div>
+										<div class="trainers__card-subtitle">Персональний тренер</div>
+										<div class="fitnes-tools__card-link trainers__card-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+								<div class="trainers__card swiper-slide">
+									<div class="trainers__card-image">
+										<div class="trainers__card-image-bg __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/trainer-bg-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/trainer-bg-1200.webp" type="image/webp">
+												<img alt="Фон картки тренера" src="./assets/img/trainer-bg.webp">
+											</picture>
+										</div>
+										<div class="trainers__card-img __img">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/services1-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/services1-1200.webp" type="image/webp">
+												<img alt="Едвард Гоулі" src="./assets/img/services1.webp">
+											</picture>
+										</div>
+									</div>
+									<div class="trainers__card-text">
+										<div class="trainers__card-title">Едвард Гоулі</div>
+										<div class="trainers__card-subtitle">Персональний тренер</div>
+										<div class="fitnes-tools__card-link trainers__card-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="blog" class="blog">
+					<div class="blog__container">
+						<h2 class="blog__title title">
+							Блог
+							<span class="text-red">FitMaker</span>
+						</h2>
+						<div class="blog__subtitle subtitle">
+							Корисні поради, ефективні методики та мотивація, які допоможуть покращити результати тренувань і швидше
+                досягти спортивних цілей.
+						</div>
+						<div class="blog__items">
+							<div class="blog__item show">
+								<div class="blog__img">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/blog1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog1-1200.webp" type="image/webp">
+										<img alt="Вправи для розвитку м'язів" src="./assets/img/blog1.webp">
+									</picture>
+								</div>
+								<div class="blog__text">
+									<div class="blog__item-title">5 найважливіших вправ для набору м'язової маси</div>
+									<div class="blog__item-labels">
+										<div class="blog__item-labels-body">
+											<div class="blog__item-label --icon-blog-icon">14 серпня</div>
+											<div class="blog__item-label --icon-blog-icon2">Силові тренування</div>
+										</div>
+										<div class="fitnes-tools__card-link blog__item-link">
+											<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="blog__cards">
+								<div class="blog__card show">
+									<div class="blog__img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/blog2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog2-1200.webp" type="image/webp">
+											<img alt="Збалансоване здорове харчування" src="./assets/img/blog2.webp">
+										</picture>
+									</div>
+									<div class="blog__text">
+										<div class="blog__card-title">Повний посібник зі збалансованого харчування</div>
+										<div class="blog__item-labels">
+											<div class="blog__item-labels-body">
+												<div class="blog__item-label blog__card-label --icon-blog-icon2">Харчування</div>
+											</div>
+											<div class="fitnes-tools__card-link blog__card-link">
+												<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="blog__card show">
+									<div class="blog__img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/blog3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog3-1200.webp" type="image/webp">
+											<img alt="Високоінтенсивні інтервальні тренування" src="./assets/img/blog3.webp">
+										</picture>
+									</div>
+									<div class="blog__text">
+										<div class="blog__card-title">Переваги високоінтенсивних інтервальних тренувань</div>
+										<div class="blog__item-labels">
+											<div class="blog__item-labels-body">
+												<div class="blog__item-label blog__card-label --icon-blog-icon2">Кардіотренування</div>
+											</div>
+											<div class="fitnes-tools__card-link blog__card-link">
+												<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="blog__card show">
+									<div class="blog__img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/blog4-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog4-1200.webp" type="image/webp">
+											<img alt="Домашні тренування" src="./assets/img/blog4.webp">
+										</picture>
+									</div>
+									<div class="blog__text">
+										<div class="blog__card-title">Домашні тренування для тих, хто постійно зайнятий</div>
+										<div class="blog__item-labels">
+											<div class="blog__item-labels-body">
+												<div class="blog__item-label blog__card-label --icon-blog-icon2">Домашні тренування</div>
+											</div>
+											<div class="fitnes-tools__card-link blog__card-link">
+												<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="blog__card show">
+									<div class="blog__img">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/blog5-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog5-1200.webp" type="image/webp">
+											<img alt="Мотивація до тренувань" src="./assets/img/blog5.webp">
+										</picture>
+									</div>
+									<div class="blog__text">
+										<div class="blog__card-title">Як завжди залишатися вмотивованим</div>
+										<div class="blog__item-labels">
+											<div class="blog__item-labels-body">
+												<div class="blog__item-label blog__card-label --icon-blog-icon2">Мотивація</div>
+											</div>
+											<div class="fitnes-tools__card-link blog__card-link">
+												<a href="#" class="--icon-arrow-right">Дізнатися більше</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="comm" class="communiti">
+					<div class="communiti__container">
+						<div class="communiti__text">
+							<h2 class="communiti__title title">
+								Приєднуйся до нашої
+								<span class="text-red">фітнес-спільноти</span>
+							</h2>
+							<div class="communiti__subtitle subtitle">
+								<p>
+									Реєструйся вже зараз, щоб отримати доступ до персональних програм тренувань, професійного
+                        супроводу тренерів та дружньої спільноти, яка допоможе тобі досягти поставлених спортивних
+                        цілей.
+								</p>
+							</div>
+							<div class="communiti__cards">
+								<div class="communiti__card show">
+									<h3 class="communiti__card-title">
+										<span class="text-red">Персональні</span>
+										програми тренувань
+									</h3>
+									<div class="communiti__card-caption">
+										<p>
+											Індивідуальні тренувальні програми, адаптовані до твого рівня підготовки та цілей, щоб
+                                ти міг досягати найкращих результатів максимально ефективно.
+										</p>
+									</div>
+								</div>
+								<div class="communiti__card show">
+									<h3 class="communiti__card-title">
+										Професійний
+										<span class="text-red">супровід</span>
+									</h3>
+									<div class="communiti__card-caption">
+										<p>
+											Тренуйся з кваліфікованими фахівцями, які супроводжуватимуть тебе на кожному етапі та
+                                допоможуть рухатися в правильному напрямку.
+										</p>
+									</div>
+								</div>
+								<div class="communiti__card show">
+									<h3 class="communiti__card-title">
+										Підтримка
+										<span class="text-red">спільноти</span>
+									</h3>
+									<div class="communiti__card-caption">
+										<p>
+											Стань частиною активної фітнес-спільноти, де можна ділитися досвідом, знаходити
+                                мотивацію та надихатися успіхами інших.
+										</p>
+									</div>
+								</div>
+								<div class="communiti__card show">
+									<h3 class="communiti__card-title">
+										Ексклюзивні
+										<span class="text-red">матеріали</span>
+									</h3>
+									<div class="communiti__card-caption">
+										<p>
+											Отримуй доступ до преміального контенту: відеоуроків, посібників із харчування та
+                                спеціальних знижок на спортивне спорядження для учасників спільноти.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<form data-fls-tabs="" action="#" class="communiti__form show form-sign">
+							<div data-fls-tabs-titles="" class="form-sign__titles">
+								<div class="form-sign__title --tab-active">Реєстрація</div>
+								<div class="form-sign__title">Вхід</div>
+							</div>
+							<div data-fls-tabs-body="" class="form-sign__forms-body">
+								<div class="form-sign__body">
+									<label for="name" class="form-sign__label">Ім'я</label>
+									<input class="form-sign__input" placeholder="Введи своє ім'я" id="name">
+									<label for="mail" class="form-sign__label">Електронна пошта</label>
+									<input class="form-sign__input" placeholder="Введи свою електронну пошту" id="mail">
+									<div class="form-sign__button">
+										<button type="submit" class="form-sign__btn btn--red">Зареєструватися</button>
+									</div>
+									<div class="form-sign__or">
+										<div class="form-sign__line"></div>
+										<div class="form-sign__or-text">або</div>
+										<div class="form-sign__line"></div>
+									</div>
+									<div class="form-sign__links">
+										<a href="#" class="form-sign__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/google-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/google-1200.webp" type="image/webp">
+												<img alt="Google" src="./assets/img/google.webp">
+											</picture>
+											<span>Зареєструватися через Google</span>
+										</a>
+									</div>
+								</div>
+								<div class="form-sign__body">
+									<label for="login" class="form-sign__label">Логін</label>
+									<input class="form-sign__input" placeholder="Введи свій логін" id="login">
+									<label for="password" class="form-sign__label">Пароль</label>
+									<input class="form-sign__input" placeholder="Введи свій пароль" id="password">
+									<div class="form-sign__button">
+										<button type="submit" class="form-sign__btn btn--red">Увійти</button>
+									</div>
+									<div class="form-sign__or">
+										<div class="form-sign__line"></div>
+										<div class="form-sign__or-text">або</div>
+										<div class="form-sign__line"></div>
+									</div>
+									<div class="form-sign__links">
+										<a href="#" class="form-sign__link">
+											<picture>
+												<source media="(max-width: 600px)" srcset="./assets/img/google-600.webp" type="image/webp">
+												<source media="(max-width: 1200px)" srcset="./assets/img/google-1200.webp" type="image/webp">
+												<img alt="G" src="./assets/img/google.webp">
+											</picture>
+											<span>Увійти через Google</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+				<section class="faq">
+					<div class="faq__container">
+						<h2 class="faq__title title">Часті запитання</h2>
+						<div data-fls-spollers="" class="faq__items">
+							<details data-fls-spollers-open="" class="faq__item show">
+								<summary class="faq__item-title">Що таке FitMaker і як платформа допоможе досягти моїх спортивних цілей?</summary>
+								<div class="faq__item-body">
+									<p>
+										FitMaker — це онлайн-платформа для тих, хто прагне покращити фізичну форму,
+                            схуднути, набрати м'язову масу або просто підтримувати активний спосіб життя.
+                            Ми пропонуємо персоналізовані програми тренувань, професійні рекомендації
+                            щодо харчування та підтримку тренерів. Незалежно від твого рівня підготовки,
+                            ти зможеш знайти програму, яка допоможе впевнено рухатися до поставленої мети.
+									</p>
+								</div>
+							</details>
+							<details class="faq__item show">
+								<summary class="faq__item-title">Як розпочати тренування на FitMaker?</summary>
+								<div class="faq__item-body">
+									<p>
+										Для початку зареєструйся на платформі, обери напрям тренувань і визнач свої
+                            цілі. Після цього ти зможеш підібрати відповідний тариф та отримати доступ
+                            до тренувальних програм. Якщо не знаєш, з чого почати, скористайся нашими
+                            інструментами або звернися до тренера за рекомендаціями. Головне — зробити
+                            перший крок і тренуватися регулярно!
+									</p>
+								</div>
+							</details>
+							<details class="faq__item show">
+								<summary class="faq__item-title">Що входить до індивідуального плану тренувань?</summary>
+								<div class="faq__item-body">
+									<p>
+										Індивідуальний план створюється з урахуванням твоїх цілей, рівня фізичної
+                            підготовки та особистих побажань. Він може включати персональну програму
+                            тренувань, рекомендації щодо харчування, відстеження прогресу та регулярні
+                            консультації з тренером. Такий підхід допомагає зробити тренування
+                            максимально ефективними та комфортними саме для тебе.
+									</p>
+								</div>
+							</details>
+							<details class="faq__item show">
+								<summary class="faq__item-title">Чи можу я змінити свій тариф після реєстрації?</summary>
+								<div class="faq__item-body">
+									<p>
+										Так! Ти можеш перейти на інший тариф, якщо твої цілі або потреби змінилися.
+                            Наприклад, почати з базового плану, а згодом обрати розширену програму
+                            з додатковими можливостями та персональним супроводом тренера.
+                            Обирай той варіант, який найкраще відповідає твоєму поточному рівню
+                            та спортивним амбіціям.
+									</p>
+								</div>
+							</details>
+							<details class="faq__item show">
+								<summary class="faq__item-title">На яку підтримку від тренера я можу розраховувати?</summary>
+								<div class="faq__item-body">
+									<p>
+										Наші тренери допоможуть тобі правильно організувати тренувальний процес,
+                            дадуть рекомендації щодо техніки виконання вправ, харчування та відновлення.
+                            Залежно від обраного тарифу ти зможеш отримувати персональні консультації,
+                            рекомендації щодо коригування програми та підтримку на шляху до своїх цілей.
+                            Ми допоможемо не втрачати мотивацію та рухатися вперед!
+									</p>
+								</div>
+							</details>
+						</div>
+					</div>
+				</section>
+			</main>
+			<div data-fls-popup="popup" aria-hidden="true" class="popup">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<button data-fls-popup-close="" type="button" class="popup__close">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/cross-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/cross-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/cross.webp">
+							</picture>
+						</button>
+						<div data-fls-popup-content="" class="popup__text">
+							<form action="#" class="communiti__form form-sign">
+								<div class="form-sign__titles">
+									<div class="form-sign__title --tab-active">Реєстрація</div>
+								</div>
+								<div class="form-sign__forms-body">
+									<div class="form-sign__body">
+										<label for="name" class="form-sign__label">Ім'я</label>
+										<input class="form-sign__input" placeholder="Введи своє ім'я" id="name">
+										<label for="mail" class="form-sign__label">Електронна пошта</label>
+										<input class="form-sign__input" placeholder="Введи свою електронну пошту" id="mail">
+										<div class="form-sign__button">
+											<button type="submit" class="form-sign__btn btn--red">Зареєструватися</button>
+										</div>
+										<div class="form-sign__or">
+											<div class="form-sign__line"></div>
+											<div class="form-sign__or-text">або</div>
+											<div class="form-sign__line"></div>
+										</div>
+										<div class="form-sign__links">
+											<a href="#" class="form-sign__link">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/google-600.webp" type="image/webp">
+													<source media="(max-width: 1200px)" srcset="./assets/img/google-1200.webp" type="image/webp">
+													<img alt="Google" src="./assets/img/google.webp">
+												</picture>
+												<span>Зареєструватися через Google</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-fls-popup="popup2" aria-hidden="true" class="popup">
+				<div data-fls-popup-wrapper="" class="popup__wrapper">
+					<div data-fls-popup-body="" class="popup__body">
+						<button data-fls-popup-close="" type="button" class="popup__close">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/cross-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/cross-1200.webp" type="image/webp">
+								<img alt="Image" src="./assets/img/cross.webp">
+							</picture>
+						</button>
+						<div data-fls-popup-content="" class="popup__text">
+							<form action="#" class="communiti__form form-sign">
+								<div class="form-sign__titles">
+									<div class="form-sign__title --tab-active">Вхід</div>
+								</div>
+								<div class="form-sign__forms-body">
+									<div class="form-sign__body">
+										<label for="login" class="form-sign__label">Логін</label>
+										<input class="form-sign__input" placeholder="Введи свій логін" id="login">
+										<label for="password" class="form-sign__label">Пароль</label>
+										<input class="form-sign__input" placeholder="Введи свій пароль" id="password">
+										<div class="form-sign__button">
+											<button type="submit" class="form-sign__btn btn--red">Увійти</button>
+										</div>
+										<div class="form-sign__or">
+											<div class="form-sign__line"></div>
+											<div class="form-sign__or-text">або</div>
+											<div class="form-sign__line"></div>
+										</div>
+										<div class="form-sign__links">
+											<a href="#" class="form-sign__link">
+												<picture>
+													<source media="(max-width: 600px)" srcset="./assets/img/google-600.webp" type="image/webp">
+													<source media="(max-width: 1200px)" srcset="./assets/img/google-1200.webp" type="image/webp">
+													<img alt="Google" src="./assets/img/google.webp">
+												</picture>
+												<span>Увійти
+										через Google</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer" data-fls-footer="">
+				<div class="footer__container">
+					<div class="footer__logo">
+						<a href="#head" class="footer__logo-img __img">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/logo-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/logo-1200.webp" type="image/webp">
+								<img alt="Логотип FitMaker" src="./assets/img/logo.webp">
+							</picture>
+						</a>
+						<div class="footer__logo-caption">
+							<p>
+								<span class="text-red">Змінюй</span>
+								своє тіло разом із FitMaker — твоїм надійним
+                    партнером у світі фітнесу. Маючи понад 5 років досвіду, ми пропонуємо професійний
+                    супровід тренерів, індивідуальні програми тренувань та комплексні рекомендації
+                    щодо харчування. Приєднуйся до нашої
+								<span class="text-red">спільноти</span>
+								та розпочни шлях до здоровішого й сильнішого себе. Готовий до
+								<span class="text-red">змін</span>
+								?
+							</p>
+						</div>
+						<div class="footer__icons">
+							<a href="#" class="footer__ico --icon-foot1"></a>
+							<a href="#" class="footer__ico --icon-foot2"></a>
+							<a href="#" class="footer__ico --icon-foot3"></a>
+							<a href="#" class="footer__ico --icon-foot4"></a>
+						</div>
+					</div>
+					<div data-fls-spollers="1024" class="footer__navigation">
+						<details class="footer__navigation-item">
+							<summary class="footer__navigation-title">Компанія</summary>
+							<div class="footer__navigation-links">
+								<a href="#blog" class="footer__navigation-link">Про нас</a>
+								<a href="#faq" class="footer__navigation-link">Кар'єра</a>
+								<a href="#plans" class="footer__navigation-link">Наші послуги</a>
+								<a href="#blog" class="footer__navigation-link">Блог</a>
+								<a href="#say" class="footer__navigation-link">Відгуки</a>
+								<a href="#head" class="footer__navigation-link">Зв'язатися з нами</a>
+							</div>
+						</details>
+						<details class="footer__navigation-item">
+							<summary class="footer__navigation-title">Корисні матеріали</summary>
+							<div class="footer__navigation-links">
+								<a href="#" class="footer__navigation-link">Фітнес-інструменти</a>
+								<a href="#" class="footer__navigation-link">Відеотренування</a>
+								<a href="#" class="footer__navigation-link">Посібники з харчування</a>
+								<a href="#" class="footer__navigation-link">Часті запитання</a>
+								<a href="#" class="footer__navigation-link">Історії успіху</a>
+								<a href="#" class="footer__navigation-link">Абонементи</a>
+							</div>
+						</details>
+						<details class="footer__navigation-item">
+							<summary class="footer__navigation-title">Програми</summary>
+							<div class="footer__navigation-links">
+								<a href="#" class="footer__navigation-link">Схуднення</a>
+								<a href="#" class="footer__navigation-link">Набір м'язової маси</a>
+								<a href="#" class="footer__navigation-link">Домашні тренування</a>
+								<a href="#" class="footer__navigation-link">Програми для залу</a>
+								<a href="#" class="footer__navigation-link">Наші тарифи</a>
+								<a href="#" class="footer__navigation-link">Фітнес-спільнота</a>
+							</div>
+						</details>
+						<details class="footer__navigation-item">
+							<summary class="footer__navigation-title">Контакти</summary>
+							<div class="footer__navigation-links">
+								<a href="#" class="footer__navigation-link --icon-foot8">США — Вашингтон, округ Колумбія</a>
+								<a href="tel:+380977654321" class="footer__navigation-link --icon-foot7">+38 (097) 765 43 21</a>
+								<a href="mailto:Fitmakerrr@Gmail.com" class="footer__navigation-link --icon-foot6">Fitmakerrr@Gmail.com</a>
+							</div>
+						</details>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
