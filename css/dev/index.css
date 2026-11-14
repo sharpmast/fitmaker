@@ -201,7 +201,6 @@ html {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
 }
-
 html {
   scroll-behavior: auto;
   color-scheme: only light;
@@ -2225,6 +2224,21 @@ html.lenis body {
 @media (max-width: 47.99875rem){
   section[id] {
     scroll-margin-top: 3.75rem;
+  }
+  ::-webkit-scrollbar {
+    width: 0.1875rem;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 23, 68, 0.4);
+    border: none;
+    box-shadow: none;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 23, 68, 0.4) transparent;
   }
   .footer__container {
     grid-template-columns: 1fr;
