@@ -2372,7 +2372,7 @@ html.lenis body {
     z-index: -1;
     padding: 0.9375rem;
     padding-bottom: 1.875rem;
-    background: linear-gradient(135deg, #5a0000 15%, rgba(31, 28, 28, 0.6980392157) 40%, #241616 80%, #d90a14 100%);
+    background: radial-gradient(ellipse 65% 45% at 0% 10%, rgba(255, 0, 45, 0.32) 0%, rgba(255, 0, 45, 0.12) 40%, transparent 75%), radial-gradient(ellipse 55% 45% at 100% 80%, rgba(255, 25, 35, 0.28) 0%, rgba(255, 25, 35, 0.09) 45%, transparent 75%), radial-gradient(ellipse 45% 35% at 50% 45%, rgba(255, 0, 55, 0.12) 0%, transparent 80%), radial-gradient(ellipse 80% 30% at 50% 100%, rgba(180, 0, 30, 0.16) 0%, transparent 75%), linear-gradient(135deg, #160b0e 0%, #09090b 45%, #13090b 100%);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
