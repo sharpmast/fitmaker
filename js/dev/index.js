@@ -5078,4 +5078,28 @@ var show = new IntersectionObserver((entries) => {
 document.querySelectorAll(".show").forEach((item) => {
 	show.observe(item);
 });
+var root = document.documentElement;
+var ticking = false;
+function updateGlow() {
+	const scrollTop = window.scrollY;
+	const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+	const progress = maxScroll > 0 ? scrollTop / maxScroll : 0;
+	root.style.setProperty("--red-x", `${50 + Math.sin(progress * Math.PI * 2) * 50}%`);
+	root.style.setProperty("--red-y", `${progress * 100}%`);
+	root.style.setProperty("--red-opacity", `${.3 + Math.abs(Math.sin(progress * Math.PI * 3)) * .35}`);
+	root.style.setProperty("--pink-x", `${50 + Math.cos(progress * Math.PI * 3) * 45}%`);
+	root.style.setProperty("--pink-y", `${85 - progress * 75}%`);
+	root.style.setProperty("--pink-opacity", `${.15 + Math.abs(Math.cos(progress * Math.PI * 2)) * .25}`);
+	root.style.setProperty("--purple-x", `${50 + Math.sin(progress * Math.PI * 4) * 40}%`);
+	root.style.setProperty("--purple-y", `${20 + progress * 65}%`);
+	root.style.setProperty("--purple-opacity", `${.06 + Math.abs(Math.sin(progress * Math.PI * 2)) * .14}`);
+	ticking = false;
+}
+window.addEventListener("scroll", () => {
+	if (!ticking) {
+		requestAnimationFrame(updateGlow);
+		ticking = true;
+	}
+}, { passive: true });
+updateGlow();
 //#endregion
